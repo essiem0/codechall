@@ -199,10 +199,19 @@
             background-color: #FAA71B;
             /* 제출 버튼 색상 */
             color: white;
-            /* 버튼 텍스트 색상 */
             cursor: pointer;
             font-weight: 600;
+
+            /* 은은한 주황빛 그림자 */
+            box-shadow: 0 0 1.4vh rgba(250, 167, 27, 0.4);
+            transition: box-shadow 0.2s ease;
         }
+
+        button:hover {
+            /* 호버 시 조금 더 강조된 그림자 */
+            box-shadow: 0 0 1.8vh rgba(250, 167, 27, 0.6);
+        }
+
 
         .result-img {
             height: 55vh;
