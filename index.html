@@ -7,19 +7,21 @@
     <title>퀴즈 부스</title>
     <style>
         @font-face {
-            font-family: 'Pretendard';
-            src: url('https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard.css');
+            font-family: 'NanumSquareRound';
+            src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_two@1.0/NanumSquareRound.woff') format('woff');
+
+            font-style: normal;
         }
 
         * {
             margin: 0;
             padding: 0;
             box-sizing: border-box;
-            font-family: 'Pretendard', sans-serif;
+            font-family: 'NanumSquareRound', sans-serif;
             color: white;
-            font-weight: 600;
-            /* 글씨 굵게 */
+            font-weight: 700;
         }
+
 
         body,
         html {
@@ -52,9 +54,9 @@
 
         .top-left-text {
             position: absolute;
-            top: 6vh;
-            left: 8vh;
-            font-size: 48px;
+            top: 8vh;
+            left: 10vh;
+            font-size: 100px;
             color: white;
         }
 
@@ -100,7 +102,7 @@
             box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.5);
             width: 80%;
             height: 60vh;
-            margin-top: 30px;
+            margin-top: 12vh;
             position: relative;
         }
 
@@ -116,25 +118,30 @@
             display: flex;
             justify-content: center;
             margin-top: 20px;
-            gap: 20px;
+            gap: 1.5vh;
         }
 
         input {
-            padding: 20px;
-            font-size: 32px;
-            width: 600px;
+            margin-top: 2vh;
+            padding: 5vh 3vh;
+            font-size: 60px;
+            width: 88vh;
+            height: 6vh;
             border-radius: 20px;
             border: none;
             color: black;
             /* 검정 텍스트 */
             background-color: white;
+            font-weight: 400;
             box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.3);
             /* inner shadow */
         }
 
         button {
+            margin-top: 2vh;
+            width: 16vh;
             padding: 20px 40px;
-            font-size: 32px;
+            font-size: 70px;
             border-radius: 20px;
             border: none;
             background-color: #FAA71B;
@@ -146,13 +153,13 @@
         }
 
         .result-img {
-            height: 43vh;
+            height: 55vh;
 
             margin-top: 7vh;
         }
 
         .level-text {
-            font-size: 48px;
+            font-size: 100px;
         }
 
         .level-easy {
